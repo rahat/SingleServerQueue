@@ -1,0 +1,40 @@
+Customer	 Arrival Time	 Interarrival	 Service Time	 Service Start	 Service End	 Wait Time	 System Time	 Idle Time
+1		 7.93		 7.93		 4.34		 7.93		 12.27		 0.00		 4.34		 7.93
+Queue: []
+2		 14.73		 6.80		 1.48		 14.73		 16.21		 0.00		 1.48		 6.80
+Queue: []
+3		 15.82		 1.09		 1.99		 16.21		 18.19		 0.39		 2.37		 0.00
+Queue: [3]
+4		 17.70		 1.88		 3.25		 18.19		 21.45		 0.50		 3.75		 0.00
+Queue: [3, 4]
+5		 20.95		 3.25		 4.79		 21.45		 26.24		 0.50		 5.29		 0.00
+Queue: [4, 5]
+6		 22.74		 1.80		 4.92		 26.24		 31.16		 3.49		 8.42		 0.00
+Queue: [5, 6]
+7		 28.20		 5.45		 4.29		 31.16		 35.45		 2.96		 7.25		 0.00
+Queue: [6, 7]
+8		 32.87		 4.67		 4.07		 35.45		 39.52		 2.58		 6.66		 0.00
+Queue: [7, 8]
+9		 35.00		 2.13		 3.40		 39.52		 42.92		 4.53		 7.93		 0.00
+Queue: [8, 9]
+10		 38.42		 3.42		 3.25		 42.92		 46.18		 4.51		 7.76		 0.00
+Queue: [9, 10]
+11		 41.08		 2.66		 0.08		 46.18		 46.26		 5.10		 5.18		 0.00
+Queue: [10, 11]
+12		 45.50		 4.43		 3.20		 46.26		 49.45		 0.76		 3.95		 0.00
+Queue: [11, 12]
+13		 47.91		 2.41		 0.15		 49.45		 49.61		 1.55		 1.70		 0.00
+Queue: [12, 13]
+14		 48.55		 0.64		 4.76		 49.61		 54.37		 1.06		 5.83		 0.00
+Queue: [13, 14]
+15		 55.41		 6.86		 1.37		 55.41		 56.78		 0.00		 1.37		 6.86
+Queue: []
+
+Avg. Interarrival Time: 4.00
+Variance of Avg. Interarrival Time: 5.33
+Avg. Service Time: 2.50
+Variance of Avg. Service Time: 2.08
+Avg. Time That The Customer is in System: 3.74
+Variance of Avg. Time That The Customer is in System: 6.54
+Avg. Time That The Server Is Idle: 2.90
+Variance of Avg. Time That The Server Is Idle: 8.92
